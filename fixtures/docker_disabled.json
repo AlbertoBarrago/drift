@@ -1,0 +1,15 @@
+{
+  "kernel_release": "6.16.0-arch1-1",
+  "packages": { "docker": "28.0.0-1", "linux": "6.16.0.arch1-1" },
+  "services": [
+    { "scope": "system", "name": "docker.service", "enablement": "disabled", "active_state": "inactive" }
+  ],
+  "runtimes": {
+    "docker": { "version": "28.0.0", "available": false },
+    "node": { "version": "v22.15.0", "available": true },
+    "neovim": { "version": "NVIM v0.11.0", "available": true }
+  },
+  "graphics": { "gpu0": "nvidia" },
+  "network_interfaces": { "wlan0": "UP" },
+  "waybar_referenced_interfaces": ["wlan0"]
+}

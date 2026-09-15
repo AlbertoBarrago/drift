@@ -1,0 +1,28 @@
+[workspace]
+members = [
+  "crates/drift-domain",
+  "crates/drift-engine",
+  "crates/drift-store",
+  "crates/drift-collect",
+  "crates/drift-profile-arch",
+  "crates/drift-profile-omarchy",
+  "crates/drift-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+rust-version = "1.85"
+
+[workspace.dependencies]
+bincode = { version = "2.0", features = ["serde"] }
+blake3 = "1.8"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.5", features = ["derive"] }
+rusqlite = { version = "0.37", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+zstd = "0.13"

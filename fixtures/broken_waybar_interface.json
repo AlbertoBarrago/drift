@@ -1,0 +1,9 @@
+{
+  "kernel_release": "6.16.0-arch1-1",
+  "packages": {},
+  "services": [],
+  "runtimes": {},
+  "graphics": {},
+  "network_interfaces": {},
+  "waybar_referenced_interfaces": ["wlan0"]
+}

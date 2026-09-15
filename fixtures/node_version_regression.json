@@ -1,0 +1,12 @@
+{
+  "kernel_release": "6.16.0-arch1-1",
+  "packages": {},
+  "services": [],
+  "runtimes": {
+    "node": { "version": "v20.19.0", "available": true },
+    "neovim": { "version": "NVIM v0.11.0", "available": true }
+  },
+  "graphics": {},
+  "network_interfaces": { "wlan0": "UP" },
+  "waybar_referenced_interfaces": ["wlan0"]
+}

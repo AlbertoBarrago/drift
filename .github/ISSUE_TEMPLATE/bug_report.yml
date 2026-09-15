@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a deterministic diagnostics defect without private workstation data.
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Minimal sanitized fixture or reproduction
+      description: Do not paste snapshots, raw config, hostnames, addresses, or credentials.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Profile
+      options: [arch, omarchy, other]
+    validations:
+      required: true

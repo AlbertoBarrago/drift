@@ -1,0 +1,9 @@
+{
+  "kernel_release": "6.16.1-arch1-1",
+  "packages": { "linux": "6.16.1.arch1-1" },
+  "services": [],
+  "runtimes": {},
+  "graphics": { "gpu0": "nouveau" },
+  "network_interfaces": { "wlan0": "UP" },
+  "waybar_referenced_interfaces": ["wlan0"]
+}

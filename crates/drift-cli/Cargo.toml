@@ -1,0 +1,21 @@
+[package]
+name = "drift"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "drift"
+path = "src/main.rs"
+
+[dependencies]
+clap.workspace = true
+drift-collect = { path = "../drift-collect" }
+drift-domain = { path = "../drift-domain" }
+drift-engine = { path = "../drift-engine" }
+drift-profile-arch = { path = "../drift-profile-arch" }
+drift-profile-omarchy = { path = "../drift-profile-omarchy" }
+drift-store = { path = "../drift-store" }
+serde_json.workspace = true
+thiserror.workspace = true
